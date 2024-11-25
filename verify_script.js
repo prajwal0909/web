@@ -25,7 +25,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
             loadingContainer.classList.remove('active'); // Hide spinner after delay
             loginContainer.style.opacity = 1;
             loginContainer.style.pointerEvents = 'auto';
-            window.location.href = "https://vote-ind.rf.gd/success.html";
+            window.location.href = "success.html";
         }, 3000); // 3 seconds simulated login delay
     }
 });
